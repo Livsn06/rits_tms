@@ -5,9 +5,9 @@ services:
     restart: unless-stopped
 
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: ritsroot
       MYSQL_DATABASE: rits_tms_db
-      MYSQL_USER: laravel
+      MYSQL_USER: rits
       MYSQL_PASSWORD: secret
 
     ports:
